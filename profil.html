@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+</head>
+<body>
+
+    <h1>Profil Mahasiswa</h1>
+    <p>Halo! Selamat datang di halaman profil saya. Saya adalah mahasiswa yang sedang mempelajari dasar-dasar pemrograman web.</p>  
+
+    <img src="img/foto-profil.jpeg" alt="Foto Profil Mahasiswa" width="200">
+    <h2>Raden Adrian Devara ILP</h2>
+    
+    <h2>Hobi Saya</h2>
+    <ul>
+        <li>Mendengar Musik</li>
+        <li>Bermain game</li>
+        <li>Melihat film</li>
+    </ul>
+    
+    <h2>Informasi Kampus</h2>
+    <p>
+        Kunjungi website resmi kampus saya di: 
+        <a href="https://www.example-kampus.ac.id" target="_blank">Website Kampus</a>
+    </p>
+
+       <h2>Daftar Mata Kuliah</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>No</th>
+            <th>Kode MK</th>
+            <th>Nama Mata Kuliah</th>
+            <th>SKS</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>MK001</td>
+            <td>Pemrograman Web Dasar</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>MK002</td>
+            <td>Basis Data</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>MK003</td>
+            <td>Jaringan Komputer</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>MK004</td>
+            <td>Algoritma dan Pemrograman</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>MK005</td>
+            <td>Sistem Operasi</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <h2>Form Kontak / Pendaftaran</h2>
+    <form action="" method="post">
+
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+        <label for="laki">Laki-laki</label><br>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+    
+</body>
+</html>
